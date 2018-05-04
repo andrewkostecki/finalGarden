@@ -50,6 +50,7 @@
                         <li><a class="nav-link" href="/community">{{ __('Community') }}</a></li>
                         <li><a class="nav-link" href="/plants">{{ __('Plants') }}</a></li>
                         <li><a class="nav-link" href="/planttypes">{{ __('Plant Types') }}</a></li>
+                        <li><a class="nav-link" href="/planters">{{ __('Planters') }}</a></li>
                         <li><a class="nav-link" href="/rooms">{{ __('Rooms') }}</a></li>
                         <li><a class="nav-link" href="/users">{{ __('Users') }}</a></li>
                         <li><a class="nav-link" href="/systems/edit/{{ app('system')->id }}">{{ __('System') }}</a></li>

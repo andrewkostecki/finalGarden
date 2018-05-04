@@ -63,3 +63,10 @@ Route::post('/notes/{id}', 'NotesController@update')->name('notes.update');
 Route::get('/note/{entity}/{entityID}/destroy/{id}', 'NotesController@destroy')->name('note.destroy');
 
 Route::get('/community', 'CommunityController@index')->name('community.index');
+
+Route::get('/planters', 'PlantersController@index')->name('planters.index');
+Route::get('/planters/create', 'PlantersController@create')->name('planters.create');
+Route::get('/planters/edit/{id}', 'PlantersController@edit')->name('planters.edit');
+Route::post('/planters/store', 'PlantersController@store')->name('Planters.store');
+Route::post('/planters/{id}', 'PlantersController@update')->name('planters.update');
+Route::get('/planters/destroy/{id}', 'PlantersController@destroy')->name('planters.destroy');
